@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto; /** center body **/
+}
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #3f3f3f;
+    font-size: 150%;
+    text-indent: 3%;
+    text-align: justify;
+}
+h1 {
+    font-size: 200%;
+    line-height: 160%;
+    font-weight: bold;
+    color: #e57b1d;
+    text-align: center;
+    text-transform: capitalize;
+}
+img {
+    /** Make images responsive to page **/
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+#center-format {
+    
+    margin: 0 auto;
+    padding: -5%;
+}
+.slider {
+    max-width: 1200px;
+   
+}
+.slider1 img {
+	width: 100%;
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.slider .bx-wrapper .bx-controls-direction a {
+	display: none;
+}
+#about {
+    background: #f0f0f0 repeat fixed 100%;
+}
+.icon-class i {
+    font-size: 600%;
+    color: #e57b1d;
+    padding: 5%;
+}

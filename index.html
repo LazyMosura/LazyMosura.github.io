@@ -1,0 +1,150 @@
+<!doctype html>
+<!-- no-js neccessary ?? -->
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Internet Explorer Compatibality -->
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- Mobie Devices: Compatibality/Scaling -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Traditional SEO -->
+<title>Budding Full Stack Developer - Website Portfolio - Tri T Nguyen </title>
+<meta name="description" content="Tri T Nguyen is junior web developer, specialising in back-end and web apps.">
+<!-- Social media -->
+<meta property="og:title" content="Tri T Nguyen is junior web developer, specialising in back-end and web apps.">
+<meta property="og:type" content="website"> <!-- weblink -->
+<meta property="og:description" content="content"> <!-- Content -->
+<meta property="og:image" content="image"> <!-- image -->
+
+<link rel="fav-icon" href="img/favicon.ico">
+<!-- Display fav-icon -->
+
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<!-- Css/Jquery slider reference -->
+<link href="style.css" rel="stylesheet" />
+<!-- Style sheet reference -->
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<!-- One method for font-awesome reference -->
+
+<link href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" ref="stylesheet" >
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- Jquery, Sliders: run smooth -->
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<!-- Font Awesome -->
+</head>
+<body>
+<div id="center-format"> <!-- Make everything stay in middle -->
+<div id="header-wrapper"> <!-- Contain headers, logo, navigation bar, slider -->
+    <header>
+        <div id="header-inner">
+            <a href="index.html" id="logo" alt="tri nguyen logo"></a>
+            <!-- Hyperlink for logo-->
+            <nav>
+                <a href ="#" id="menu-icon"></a>
+                <ul>
+                    <li><a href="index.html" class="scrollnav">Home</a></li>
+                    <li><a href="#about" class="scrollnav">About Me</a></li>
+                    <li><a href="#skills" class="scrollnav">Skills</a></li>
+                    <li><a href="#portfolio" class="scrollnav">Portfolio</a></li>
+                    <li><a href="#contact" class="scrollnav">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!--End of header-inner -->
+    </header>
+<!-- 
+=================================================
+Slider Script Start !!!
+=================================================
+-->    
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ <script src="js/jquery.bxslider.min.js"></script>
+    <div class="slider-wrap">
+        <section class="slider">
+            <ul class="slider1">
+                <li><img src="img/desktop1.jpeg"></li>
+                <li><img src="img/desktop2.jpeg"></li>
+                <li><img src="img/desktop3.jpeg"></li>
+            </ul>
+        </section> <!-- End slider -->
+    </div> <!-- End slider-wrap -->
+    <!-- Begin of Script Function (try to break it down) -->
+    <script type="text/javascript">
+    $('.slider1').bxSlider({
+        mode: 'fade',
+        captions: false,
+        auto: true,
+        pager:false,
+    });
+    $('.slider2').bxSlider({
+        pager:false,
+        captions: true,
+        maxSlides: 3,
+        minSlides: 1,
+        slideWidth: 230,
+        slideMargin: 10,
+    });
+    $('.slider3').bxSlider({
+        mode: 'fade',
+        captions: false,
+        auto: true,
+        pager: false,
+        controls: false,
+    });
+</script>
+
+<!-- 
+=================================================
+Slider Script End !!!
+=================================================
+-->        
+</div> <!-- End of header-wrapper -->
+
+<!-- 
+=================================================
+About Me Section Begin !!!
+=================================================
+-->        
+<section class="about">
+    <h1> About Me </h1>
+    <p>
+My name is Tri T Nguyen and I am budding full stack developer with the aspiration to become a proficient developer one day. Currently, I’m under taking a 6-month boot camp course at Coder Factory. With the passion for semantic and standards based development professionally, I love to get my hands on web application development.<br>
+
+I’m a self-driven and goal oriented focus guy, I have keen eyes for attentions to details. My strength lies in strong analytical skills and solving problem in methodical way that I acquired while I was studying and working in financial sector. <br>
+
+In addition to web development, I also enjoy listen to audio books about self-development, personal finance and investing.  I have vested interest in investment for different things, especially with start up opportunities that I can get my hands on. Traveling is a must for me at least twice a year, I love to experience and explore new places, as well as coming back to places I’ve been.  I have a soft spot for online gaming; my guilty pleasure is spending the whole day on a game that I love. </p>
+
+
+</section>
+<div class="icon-class">
+<td><i class="fa fa-html5" aria-hidden="true"></i></td>
+</div>
+<!-- 
+=================================================
+About Me Section End !!!
+=================================================
+-->        
+
+<!-- 
+=================================================
+Skills Section Begin !!!
+=================================================
+-->       
+<section id="skills">
+<h1>Why choose me </h1>
+<p> In addition to web development, I also enjoy listen to audio books about self-development, personal finance and investing.  I have vested interest in investment for different things, especially with start up opportunities that I can get my hands on. Traveling is a must for me at least twice a year, I love to experience and explore new places, as well as coming back to places I’ve been.  I have a soft spot for online gaming; my guilty pleasure is spending the whole day on a game that I love. </p>
+
+</section>
+<!-- 
+=================================================
+Skills Section End !!!
+=================================================
+-->       
+</div> <!-- Ened of center-format-->
+
+
+
+
+
+</body>  
+</html>
