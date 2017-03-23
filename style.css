@@ -1,60 +1,137 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
-
 * {
     margin: 0;
-    border: 0;
     padding: 0;
+    border: 0;
 }
-body {
-    background: #f0f0f0;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto; /** center body **/
+/* Editing Title/Paragraph Format */
+h2 {
+    font-size: 250%;
+    color: #FFA500;
+    margin-top: 60px;
+}
+h3 {
+    font-size: 200%;
+    color: #fff;
+}
+hr {
+    background: #ff8c00;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 1px;
+    margin: 5px auto;
+    width: 20%;
 }
 p {
-    font-family: 'Alegreya Sans', sans-serif;
-    color: #3f3f3f;
-    font-size: 150%;
-    text-indent: 3%;
-    text-align: justify;
-}
-h1 {
-    font-size: 200%;
-    line-height: 160%;
-    font-weight: bold;
-    color: #e57b1d;
     text-align: center;
-    text-transform: capitalize;
+
 }
-img {
-    /** Make images responsive to page **/
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+/* Fix background scrolling */
+html, body {
+    height: 100%;
+}
+.sect {
+    height: 20%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.subSection {
     height: auto;
-    width: auto;
+    background-color: #fff;
 }
-#center-format {
-    
-    margin: 0 auto;
-    padding: -5%;
+.sectOne {
+background-image: url("img/coffee2.jpg");
+position: relative;
 }
-.slider {
-    max-width: 1200px;
-   
+.sectTwo {
+background-image: url("img/coffee1.jpg")
 }
-.slider1 img {
-	width: 100%;
-	max-width: 1200px;
-    margin: 0 auto;
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-.slider .bx-wrapper .bx-controls-direction a {
-	display: none;
+.sectThree {
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("img/google-map.png");
 }
-#about {
-    background: #f0f0f0 repeat fixed 100%;
+
+/* Nav Bar */
+.navbar-brand {
+    padding-top: 5px;
+    margin-top: -12px;
 }
+.navbar {
+  background: #fff;
+  border-bottom-color: #FFA500;
+  border-bottom-width: 60%;
+  position: justify;
+}
+ul.nav a {
+    color: rgba(0,0,0) !important;
+    text-align: center;
+}
+ul.nav a:hover {
+    color: #FFA500 !important;
+}
+.navbar-header {
+    padding-top: 15px;
+}
+
+ /* Stop Nav Bar Overlapping */
+  body {
+    padding-top: 74px;
+  }
+
+/* Slider */
+#myCarousel {
+    margin-top: -20px;
+}
+
+/* About me */
+.title {
+    text-align: center;
+}
+
+/* Skills */
 .icon-class i {
-    font-size: 600%;
-    color: #e57b1d;
-    padding: 5%;
+    color: #FF8C00;
+    font-size: 350%;
+    padding: 6%;
 }
+.icon-class-js i {
+    color: #ff8c00;
+    font-size: 330%;
+    padding: 6%;
+}
+
+/* Contact Form */
+.transparent{
+       background:rgba(0,0,0,0.3) !important;
+       color: #fff
+}
+.contact-text {
+    color: #fff;
+}  
+.buts {
+    background: #FF8C00;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.trade {
+    background: #fff;
+    text-align: center;
+}
+label {
+    color: #fff;
+}
+
+
