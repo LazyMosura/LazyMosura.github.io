@@ -1,32 +1,47 @@
-@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 /* Editing Title/Paragraph Format */
+
 h2 {
     font-size: 250%;
     color: #FFA500;
     margin-top: 60px;
 }
 h3 {
-    font-size: 200%;
-    color: #fff;
+    font-size: 120%;
+}
+h4{
+    font-size: 150%;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+h5 {
+    font-size: 150%;
+}
+p {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 120%;
+
+}
+.body-skills {
+    padding-top: 20px;
+}
+.project {
+    padding-top: 20px;
 }
 hr {
     background: #ff8c00;
     display: block;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    padding: 1px;
+    padding-bottom: 2px;
     margin: 5px auto;
     width: 20%;
 }
-p {
-    text-align: center;
 
-}
 /* Fix background scrolling */
 html, body {
     height: 100%;
@@ -104,12 +119,12 @@ ul.nav a:hover {
 /* Skills */
 .icon-class i {
     color: #FF8C00;
-    font-size: 350%;
+    font-size: 300%;
     padding: 6%;
 }
 .icon-class-js i {
     color: #ff8c00;
-    font-size: 330%;
+    font-size: 300%;
     padding: 6%;
 }
 
