@@ -21,18 +21,19 @@ In the first week, I spend the morning on researching for inspiration and buildi
 
 # 5. Building Process: 
 ### 1. Basic layout:
-    First, I began to build HTML layout, then I add in content for each section, and then I started with CSS. However, I faced with difficulty while trying to make the website responsive after adding in image sliders. I decided that I would use bootstrap for its grid system and responsive feature. 
+First, I began to build HTML layout, then I add in content for each section, and then I started with CSS. However, I faced with difficulty while trying to make the website responsive after adding in image sliders. I decided that I would use bootstrap for its grid system and responsive feature. 
 ### 2. Bootstrap
-    Bootstrap has many features inbuilt as a framework that I believe would vastly reduce the development speed, which I need to use because I only have one week to build my website. Some of the features from bootstrap included: 
-        Navbar& Dropdowns  - List groups - Wells & Panels - Form & Input - Thumbnails - Grid system - Tables - etc...
-    Also, I used Navbar & Dropdowns, Grid System,  Form & Input, and Buttons & Link, the reason I used these were the belief of its responsiveness, and I would spend less time worrying about how each element coordinate with each other. 
+Bootstrap has many features inbuilt as a framework that I believe would vastly reduce the development speed, which I need to use because I only have one week to build my website. Some of the features from bootstrap included: Navbar& Dropdowns  - List groups - Wells & Panels - Form & Input - Thumbnails - Grid system - Tables - etc...
+
+Also, I used Navbar & Dropdowns, Grid System,  Form & Input, and Buttons & Link, the reason I used these were the belief of its responsiveness, and I would spend less time worrying about how each element coordinate with each other. 
 ### 3. Style Guide: font, number of colors, line break (hr)
-    I used the standard font for most of the titles, and Crimson-text font for the paragraph. My choice of colors was: white, black and orange (#ffa500). I did not want to cluster my contents with colors as most of my contents are temporary right now. I also used line break beneath each main title; I believe this would help to reduce the cluster from paragraphs. 
+I used the standard font for most of the titles, and Crimson-text font for the paragraph. My choice of colors was: white, black and orange (#ffa500). I did not want to cluster my contents with colors as most of my contents are temporary right now. I also used line break beneath each main title; I believe this would help to reduce the cluster from paragraphs. 
 ### 4. Navigation Bar:
-    As my portfolio has 5 section: landing page, about me, skills, portfolio, and contact. I made the navigation bar with my logo on the left, and I navigation buttons on the right. In my mobile screen size, the buttons would get hidden, and the menu dropdown box appears those I buttons. 
+As my portfolio has 5 section: landing page, about me, skills, portfolio, and contact. I made the navigation bar with my logo on the left, and I navigation buttons on the right. In my mobile screen size, the buttons would get hidden, and the menu dropdown box appears those I buttons. 
 ### 5. Page content:
-    About me's section is where I split introduction about me into three paragraphs, each address one question. Skills section I would discuss the tools that I have used and my scope for improving those skills. In the portfolio section, I would have all the projects I have done, including the web portfolio. 
-    Contact section: I used the form & input and buttons from bootstrap to create the form for viewers to communicate with me by putting in their names, emails, and message. I also have three buttons for social links. 
+About me's section is where I split introduction about me into three paragraphs, each address one question. Skills section I would discuss the tools that I have used and my scope for improving those skills. In the portfolio section, I would have all the projects I have done, including the web portfolio. 
+
+Contact section: I used the form & input and buttons from bootstrap to create the form for viewers to communicate with me by putting in their names, emails, and message. I also have three buttons for social links. 
 # 6.Challenges and difficulties: 
 ### 1. Using purely html5/css (long time to figure out,)
 It was quite a challenging task to use strictly HTML/CSS, which was why I shifted towards adding in bootstrap. At first, I did not like the idea of using bootstrap, as I thought using HTML/CSS would be a great way to show that I have a strong understanding. However, after some research and learn about bootstrap, I realize that in the real world I need to produce the product as fast as possible, as long as it functionals and meet the standards. Moreover, I can also go back to improve the code if I need to in the future. Clients/Employers focus on minimizing resources and time as the priority, and there is no real incentive to use HTML/CSS if it takes much longer time. I come to the theory that as craftsmen(developer) I need to be able to use hand tool (HTML/CSS) and combine with the power tool (frameworks) to produce the best possible product in a set timeframe.
