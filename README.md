@@ -1,6 +1,13 @@
 # tri-t-nguyen.github.io
 
 [1.Introduction](#1.Introduction)
+[2.Though process](#2.Thought-process-before-building:)
+[3.Preparation](#3.Preparation-Process/Design-and-Approach: )
+[4.Tool Used](#4.Tool-Used:)
+[5.Building Process](#5.Building-Process:)
+[6.Challenges](#6.Challenges-and-difficulties:)
+[7.Summary](#7.Summary)
+[8.Future Development](#8.Future-Development:)
 # 1. Introduction: 
  My name is Tri Thanh Nguyen; this is my first web project. The project focuses on making my portfolio in a web page format. The purpose of the project is to portrait my capabilities in front end development and market myself as a web developer. The focus is on introducing who am I, the works that I have done up until this day. 
 
