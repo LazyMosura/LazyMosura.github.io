@@ -1,6 +1,7 @@
 # tri-t-nguyen.github.io
 
-# 1. Introduction: #
+[1.Introduction](#1.Introduction)
+# 1. Introduction: 
  My name is Tri Thanh Nguyen; this is my first web project. The project focuses on making my portfolio in a web page format. The purpose of the project is to portrait my capabilities in front end development and market myself as a web developer. The focus is on introducing who am I, the works that I have done up until this day. 
 
 # 2. Thought process before building:
@@ -43,7 +44,7 @@ My other challenge is having sufficient materials so that the web page would loo
 # 7. Summary
 Although the time I was given to build my web portfolio was quite short, I have learned a lot during the process; I grasped the basic concepts of using HTML/CSS along with some bootstrap. I learned the process of building a website could get very complex as I am expanding on it. Moreover, there are many more things that I can learn from working on my project. I also realize to master HTML or CSS alone can also take much time as it can be very challenging. However, I think that I have achieved the scope of the project which is to make the web page responsive to different viewing ports and maximize the viewer's readability. 
 
-# 8. Future development: adding functionality, remake contents, navigation bar, adding the new blog, and resume pop up. 
+# 8. Future development:
 ##### As my web development continues, I would like to add more features to my site so that I can expand my knowledge on frontend development.
 ###### Here are the features I wish to incorporate into my portfolio: 
 1. Rework the navigation bar to use only HTML/CSS and make it responsive.
